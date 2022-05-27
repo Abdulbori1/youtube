@@ -1,0 +1,60 @@
+POST http://localhost:8080/playlist/adm
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI5IiwiaWF0IjoxNjUzMjMzMjYwLCJleHAiOjE2NTM1OTMyNjAsImlzcyI6Im1hemdpIHByb2R1Y3Rpb24iLCJyb2xlIjoiVVNFUiJ9.ByNniSetgJ82CI7wR04mfQQ0e8xtAdtFaZbzT5Xazvk
+
+{
+  "channelId" : 3,
+  "name" : "Yangi",
+  "description" : "Yangi videolar",
+  "status" : "PUBLIC",
+  "order_num" : 1
+}
+
+###
+PUT http://localhost:8080/playlist/adm/update/12
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI5IiwiaWF0IjoxNjUzMjMzMjYwLCJleHAiOjE2NTM1OTMyNjAsImlzcyI6Im1hemdpIHByb2R1Y3Rpb24iLCJyb2xlIjoiVVNFUiJ9.ByNniSetgJ82CI7wR04mfQQ0e8xtAdtFaZbzT5Xazvk
+
+{
+  "channelId" : 3,
+  "name" : "Yangi",
+  "description" : "Yangi videolar",
+  "status" : "PUBLIC",
+  "order_num" : 1
+}
+
+###
+PUT http://localhost:8080/playlist/adm/update/status/8
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI5IiwiaWF0IjoxNjUzMjMzMjYwLCJleHAiOjE2NTM1OTMyNjAsImlzcyI6Im1hemdpIHByb2R1Y3Rpb24iLCJyb2xlIjoiVVNFUiJ9.ByNniSetgJ82CI7wR04mfQQ0e8xtAdtFaZbzT5Xazvk
+
+{
+  "status" : "PUBLIC"
+}
+
+###
+GET http://localhost:8080/playlist/adm/list
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI3IiwiaWF0IjoxNjUzMjMzMzc5LCJleHAiOjE2NTM1OTMzNzksImlzcyI6Im1hemdpIHByb2R1Y3Rpb24iLCJyb2xlIjoiQURNSU4ifQ.GMeB9ga74X1u8T0rSKUrpK3CE1LmyxUnSrMub2ZUG_E
+
+###
+DELETE http://localhost:8080/playlist/adm/delete/12
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI5IiwiaWF0IjoxNjUzMjMzMjYwLCJleHAiOjE2NTM1OTMyNjAsImlzcyI6Im1hemdpIHByb2R1Y3Rpb24iLCJyb2xlIjoiVVNFUiJ9.ByNniSetgJ82CI7wR04mfQQ0e8xtAdtFaZbzT5Xazvk
+
+###
+GET http://localhost:8080/playlist/adm/list
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI3IiwiaWF0IjoxNjUzMjMzMzc5LCJleHAiOjE2NTM1OTMzNzksImlzcyI6Im1hemdpIHByb2R1Y3Rpb24iLCJyb2xlIjoiQURNSU4ifQ.GMeB9ga74X1u8T0rSKUrpK3CE1LmyxUnSrMub2ZUG_E
+
+###
+GET http://localhost:8080/playlist/adm/list/9
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI3IiwiaWF0IjoxNjUzMjMzMzc5LCJleHAiOjE2NTM1OTMzNzksImlzcyI6Im1hemdpIHByb2R1Y3Rpb24iLCJyb2xlIjoiQURNSU4ifQ.GMeB9ga74X1u8T0rSKUrpK3CE1LmyxUnSrMub2ZUG_E
+
+###
+GET http://localhost:8080/playlist/adm/list/pagination
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI5IiwiaWF0IjoxNjUzMjMzMjYwLCJleHAiOjE2NTM1OTMyNjAsImlzcyI6Im1hemdpIHByb2R1Y3Rpb24iLCJyb2xlIjoiVVNFUiJ9.ByNniSetgJ82CI7wR04mfQQ0e8xtAdtFaZbzT5Xazvk
+
+###
+GET http://localhost:8080/playlist/adm/3
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI5IiwiaWF0IjoxNjUzMjMzMjYwLCJleHAiOjE2NTM1OTMyNjAsImlzcyI6Im1hemdpIHByb2R1Y3Rpb24iLCJyb2xlIjoiVVNFUiJ9.ByNniSetgJ82CI7wR04mfQQ0e8xtAdtFaZbzT5Xazvk
+
+###
+GET http://localhost:8080/playlist//playlist/12

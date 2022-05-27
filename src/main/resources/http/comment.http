@@ -1,0 +1,42 @@
+POST http://localhost:8080/comment/adm
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI5IiwiaWF0IjoxNjUzMjMzMjYwLCJleHAiOjE2NTM1OTMyNjAsImlzcyI6Im1hemdpIHByb2R1Y3Rpb24iLCJyb2xlIjoiVVNFUiJ9.ByNniSetgJ82CI7wR04mfQQ0e8xtAdtFaZbzT5Xazvk
+
+{
+  "content" : "Salom alekum",
+  "videoId" : 3,
+  "replayId" : 12
+}
+
+###
+PUT http://localhost:8080/comment/adm/14
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI5IiwiaWF0IjoxNjUzMjMzMjYwLCJleHAiOjE2NTM1OTMyNjAsImlzcyI6Im1hemdpIHByb2R1Y3Rpb24iLCJyb2xlIjoiVVNFUiJ9.ByNniSetgJ82CI7wR04mfQQ0e8xtAdtFaZbzT5Xazvk
+
+{
+  "content" : "Salom alekum",
+  "videoId" : 3,
+  "replayId" : 14
+}
+
+###
+DELETE http://localhost:8080/comment/adm/18
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI5IiwiaWF0IjoxNjUzMjMzMjYwLCJleHAiOjE2NTM1OTMyNjAsImlzcyI6Im1hemdpIHByb2R1Y3Rpb24iLCJyb2xlIjoiVVNFUiJ9.ByNniSetgJ82CI7wR04mfQQ0e8xtAdtFaZbzT5Xazvk
+
+###
+GET http://localhost:8080/comment/adm/list
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI3IiwiaWF0IjoxNjUzMjMzMzc5LCJleHAiOjE2NTM1OTMzNzksImlzcyI6Im1hemdpIHByb2R1Y3Rpb24iLCJyb2xlIjoiQURNSU4ifQ.GMeB9ga74X1u8T0rSKUrpK3CE1LmyxUnSrMub2ZUG_E
+
+###
+GET http://localhost:8080/comment/adm/profile/9
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI3IiwiaWF0IjoxNjUzMjMzMzc5LCJleHAiOjE2NTM1OTMzNzksImlzcyI6Im1hemdpIHByb2R1Y3Rpb24iLCJyb2xlIjoiQURNSU4ifQ.GMeB9ga74X1u8T0rSKUrpK3CE1LmyxUnSrMub2ZUG_E
+
+###
+GET http://localhost:8080/comment/adm
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI5IiwiaWF0IjoxNjUzMjMzMjYwLCJleHAiOjE2NTM1OTMyNjAsImlzcyI6Im1hemdpIHByb2R1Y3Rpb24iLCJyb2xlIjoiVVNFUiJ9.ByNniSetgJ82CI7wR04mfQQ0e8xtAdtFaZbzT5Xazvk
+
+###
+GET http://localhost:8080/comment/video/3
+
+###
+GET http://localhost:8080/comment/reply/12

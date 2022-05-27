@@ -1,0 +1,59 @@
+POST http://localhost:8080/chanel/adm
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI5IiwiaWF0IjoxNjUzMjMzMjYwLCJleHAiOjE2NTM1OTMyNjAsImlzcyI6Im1hemdpIHByb2R1Y3Rpb24iLCJyb2xlIjoiVVNFUiJ9.ByNniSetgJ82CI7wR04mfQQ0e8xtAdtFaZbzT5Xazvk
+
+{
+  "name" : "Online Trading",
+  "photo" : "877335e8-a938-43a4-af19-4bc871749af0",
+  "description": "Online Trading site",
+  "status" : "ACTIVE",
+  "banner" : "877335e8-a938-43a4-af19-4bc871749af0"
+}
+
+###
+PUT http://localhost:8080/chanel/adm/update/4
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI5IiwiaWF0IjoxNjUzMjMzMjYwLCJleHAiOjE2NTM1OTMyNjAsImlzcyI6Im1hemdpIHByb2R1Y3Rpb24iLCJyb2xlIjoiVVNFUiJ9.ByNniSetgJ82CI7wR04mfQQ0e8xtAdtFaZbzT5Xazvk
+
+{
+  "name" : "Online Trading",
+  "photo" : "877335e8-a938-43a4-af19-4bc871749af0",
+  "description": "Online Trading site",
+  "status" : "ACTIVE",
+  "banner" : "877335e8-a938-43a4-af19-4bc871749af0"
+}
+
+###
+PUT http://localhost:8080/chanel/adm/update/photo/4
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI5IiwiaWF0IjoxNjUzMjMzMjYwLCJleHAiOjE2NTM1OTMyNjAsImlzcyI6Im1hemdpIHByb2R1Y3Rpb24iLCJyb2xlIjoiVVNFUiJ9.ByNniSetgJ82CI7wR04mfQQ0e8xtAdtFaZbzT5Xazvk
+
+{
+  "photo" : "877335e8-a938-43a4-af19-4bc871749af0"
+}
+
+###
+PUT http://localhost:8080/chanel/adm/update/banner/4
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI5IiwiaWF0IjoxNjUzMjMzMjYwLCJleHAiOjE2NTM1OTMyNjAsImlzcyI6Im1hemdpIHByb2R1Y3Rpb24iLCJyb2xlIjoiVVNFUiJ9.ByNniSetgJ82CI7wR04mfQQ0e8xtAdtFaZbzT5Xazvk
+
+{
+  "banner" : "877335e8-a938-43a4-af19-4bc871749af0"
+}
+
+###
+GET http://localhost:8080/chanel/adm/list
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI3IiwiaWF0IjoxNjUzMjMzMzc5LCJleHAiOjE2NTM1OTMzNzksImlzcyI6Im1hemdpIHByb2R1Y3Rpb24iLCJyb2xlIjoiQURNSU4ifQ.GMeB9ga74X1u8T0rSKUrpK3CE1LmyxUnSrMub2ZUG_E
+
+###
+PUT http://localhost:8080/chanel/adm/update/status/4
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI5IiwiaWF0IjoxNjUzMjMzMjYwLCJleHAiOjE2NTM1OTMyNjAsImlzcyI6Im1hemdpIHByb2R1Y3Rpb24iLCJyb2xlIjoiVVNFUiJ9.ByNniSetgJ82CI7wR04mfQQ0e8xtAdtFaZbzT5Xazvk
+
+{
+  "status" : "ACTIVE"
+}
+
+###
+GET http://localhost:8080/chanel/adm/chanel
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI5IiwiaWF0IjoxNjUzMjMzMjYwLCJleHAiOjE2NTM1OTMyNjAsImlzcyI6Im1hemdpIHByb2R1Y3Rpb24iLCJyb2xlIjoiVVNFUiJ9.ByNniSetgJ82CI7wR04mfQQ0e8xtAdtFaZbzT5Xazvk

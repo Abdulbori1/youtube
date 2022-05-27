@@ -1,0 +1,27 @@
+POST http://localhost:8080/playlist/video/adm
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI5IiwiaWF0IjoxNjUzMjMzMjYwLCJleHAiOjE2NTM1OTMyNjAsImlzcyI6Im1hemdpIHByb2R1Y3Rpb24iLCJyb2xlIjoiVVNFUiJ9.ByNniSetgJ82CI7wR04mfQQ0e8xtAdtFaZbzT5Xazvk
+
+{
+  "playlistId" : 12,
+  "videoId" : 3,
+  "order_num" : 1
+}
+
+###
+PUT http://localhost:8080/playlist/video/adm/6
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI5IiwiaWF0IjoxNjUzMjMzMjYwLCJleHAiOjE2NTM1OTMyNjAsImlzcyI6Im1hemdpIHByb2R1Y3Rpb24iLCJyb2xlIjoiVVNFUiJ9.ByNniSetgJ82CI7wR04mfQQ0e8xtAdtFaZbzT5Xazvk
+
+{
+  "playlistId" : 6,
+  "videoId" : 3,
+  "order_num" : 1
+}
+
+###
+DELETE http://localhost:8080/playlist/video/adm/2
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI5IiwiaWF0IjoxNjUzMjMzMjYwLCJleHAiOjE2NTM1OTMyNjAsImlzcyI6Im1hemdpIHByb2R1Y3Rpb24iLCJyb2xlIjoiVVNFUiJ9.ByNniSetgJ82CI7wR04mfQQ0e8xtAdtFaZbzT5Xazvk
+
+###
+GET http://localhost:8080/playlist/video/12

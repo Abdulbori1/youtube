@@ -1,0 +1,19 @@
+POST http://localhost:8080/auth/login
+Content-Type: application/json
+
+{
+  "email" : "matmusayevabdulbori60@gmail.com",
+  "password" : "Alish"
+}
+
+###
+POST http://localhost:8080/auth/registration
+Content-Type: application/json
+
+{
+  "name" : "Alish",
+  "surname" : "Alishov",
+  "email" : "matmusayevabdulbori8@gmail.com",
+  "image" : "b08e687f-e6b0-412e-aaff-fd697579e0a2",
+  "password" : "Alish"
+}

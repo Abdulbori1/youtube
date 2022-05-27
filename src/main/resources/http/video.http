@@ -1,0 +1,60 @@
+POST http://localhost:8080/video/adm
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI5IiwiaWF0IjoxNjUzMjMzMjYwLCJleHAiOjE2NTM1OTMyNjAsImlzcyI6Im1hemdpIHByb2R1Y3Rpb24iLCJyb2xlIjoiVVNFUiJ9.ByNniSetgJ82CI7wR04mfQQ0e8xtAdtFaZbzT5Xazvk
+Content-Type: application/json
+
+{
+  "title" : "Salom",
+  "status" : "PUBLIC",
+  "type" : "VIDEO",
+  "description" : "alekum",
+  "categoryId" : 4,
+  "chanelId" : 3,
+  "duration" : 10
+}
+
+###
+PUT http://localhost:8080/video/adm/update/3
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI5IiwiaWF0IjoxNjUzMjMzMjYwLCJleHAiOjE2NTM1OTMyNjAsImlzcyI6Im1hemdpIHByb2R1Y3Rpb24iLCJyb2xlIjoiVVNFUiJ9.ByNniSetgJ82CI7wR04mfQQ0e8xtAdtFaZbzT5Xazvk
+Content-Type: application/json
+
+{
+  "title" : "Salom",
+  "status" : "PUBLIC",
+  "type" : "VIDEO",
+  "description" : "alekum",
+  "categoryId" : 4,
+  "chanelId" : 3
+}
+
+###
+PUT http://localhost:8080/video/adm/update/status/3
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI5IiwiaWF0IjoxNjUzMjMzMjYwLCJleHAiOjE2NTM1OTMyNjAsImlzcyI6Im1hemdpIHByb2R1Y3Rpb24iLCJyb2xlIjoiVVNFUiJ9.ByNniSetgJ82CI7wR04mfQQ0e8xtAdtFaZbzT5Xazvk
+
+{
+  "status" : "PUBLIC"
+}
+
+###
+GET http://localhost:8080/video/list/get/category/4
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI5IiwiaWF0IjoxNjUzMjMzMjYwLCJleHAiOjE2NTM1OTMyNjAsImlzcyI6Im1hemdpIHByb2R1Y3Rpb24iLCJyb2xlIjoiVVNFUiJ9.ByNniSetgJ82CI7wR04mfQQ0e8xtAdtFaZbzT5Xazvk
+
+###
+GET http://localhost:8080/video/adm/get/key/3e25abe6-e40b-4e9f-873b-3bea04c830f2
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI5IiwiaWF0IjoxNjUzMDE2NTIzLCJleHAiOjE2NTMzNzY1MjMsImlzcyI6Im1hemdpIHByb2R1Y3Rpb24iLCJyb2xlIjoiVVNFUiJ9.6DBFBdnke1aJv9KuZ3OAyvg66XaXt7G3dxny2AoU6Ck
+
+###
+GET http://localhost:8080/video/adm/get/title/Salom
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI5IiwiaWF0IjoxNjUzMDE2NTIzLCJleHAiOjE2NTMzNzY1MjMsImlzcyI6Im1hemdpIHByb2R1Y3Rpb24iLCJyb2xlIjoiVVNFUiJ9.6DBFBdnke1aJv9KuZ3OAyvg66XaXt7G3dxny2AoU6Ck
+
+###
+GET http://localhost:8080/video/list/get/tag/4
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI5IiwiaWF0IjoxNjUzMDE2NTIzLCJleHAiOjE2NTMzNzY1MjMsImlzcyI6Im1hemdpIHByb2R1Y3Rpb24iLCJyb2xlIjoiVVNFUiJ9.6DBFBdnke1aJv9KuZ3OAyvg66XaXt7G3dxny2AoU6Ck
+
+###
+GET http://localhost:8080/video/list/get/chanel/3
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI5IiwiaWF0IjoxNjUzMDE2NTIzLCJleHAiOjE2NTMzNzY1MjMsImlzcyI6Im1hemdpIHByb2R1Y3Rpb24iLCJyb2xlIjoiVVNFUiJ9.6DBFBdnke1aJv9KuZ3OAyvg66XaXt7G3dxny2AoU6Ck
+
+###
+GET http://localhost:8080/video/list/get
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI5IiwiaWF0IjoxNjUzMDE2NTIzLCJleHAiOjE2NTMzNzY1MjMsImlzcyI6Im1hemdpIHByb2R1Y3Rpb24iLCJyb2xlIjoiVVNFUiJ9.6DBFBdnke1aJv9KuZ3OAyvg66XaXt7G3dxny2AoU6Ck

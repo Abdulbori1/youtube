@@ -1,0 +1,23 @@
+POST http://localhost:8080/tag/adm
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI3IiwiaWF0IjoxNjUzMTE5MDE4LCJleHAiOjE2NTM0NzkwMTgsImlzcyI6Im1hemdpIHByb2R1Y3Rpb24iLCJyb2xlIjoiQURNSU4ifQ.jxsv84tbvanJsz1Y5f9Ib9vjYikTWf0fnecvkWG7jX0
+Content-Type: application/json
+
+{
+  "name" : "Alish"
+}
+
+###
+PUT http://localhost:8080/tag/adm/7
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI3IiwiaWF0IjoxNjUzMTE5MDE4LCJleHAiOjE2NTM0NzkwMTgsImlzcyI6Im1hemdpIHByb2R1Y3Rpb24iLCJyb2xlIjoiQURNSU4ifQ.jxsv84tbvanJsz1Y5f9Ib9vjYikTWf0fnecvkWG7jX0
+Content-Type: application/json
+
+{
+  "name" : "Alishxon"
+}
+
+###
+GET http://localhost:8080/tag
+
+###
+DELETE http://localhost:8080/tag/adm/7
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI3IiwiaWF0IjoxNjUzMTE5MDE4LCJleHAiOjE2NTM0NzkwMTgsImlzcyI6Im1hemdpIHByb2R1Y3Rpb24iLCJyb2xlIjoiQURNSU4ifQ.jxsv84tbvanJsz1Y5f9Ib9vjYikTWf0fnecvkWG7jX0

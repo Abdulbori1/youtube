@@ -1,0 +1,71 @@
+POST http://localhost:8080/profile/adm
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI3IiwiaWF0IjoxNjUzMTE1OTIwLCJleHAiOjE2NTM0NzU5MjAsImlzcyI6Im1hemdpIHByb2R1Y3Rpb24iLCJyb2xlIjoiQURNSU4ifQ.1ulZmPYlt50VCnWFrDaVGsG8OI7K-7JHXEvDMzWMMPk
+
+{
+  "name" : "Alish",
+  "surname": "Alishxon",
+  "email": "Alish@mail.ru",
+  "password": "Alish",
+  "status" : "ACTIVE",
+  "role": "ADMIN"
+}
+
+###
+GET http://localhost:8080/profile/adm/12
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI3IiwiaWF0IjoxNjUzMTE1OTIwLCJleHAiOjE2NTM0NzU5MjAsImlzcyI6Im1hemdpIHByb2R1Y3Rpb24iLCJyb2xlIjoiQURNSU4ifQ.1ulZmPYlt50VCnWFrDaVGsG8OI7K-7JHXEvDMzWMMPk
+
+###
+PUT http://localhost:8080/profile/adm/12
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI3IiwiaWF0IjoxNjUzMTE1OTIwLCJleHAiOjE2NTM0NzU5MjAsImlzcyI6Im1hemdpIHByb2R1Y3Rpb24iLCJyb2xlIjoiQURNSU4ifQ.1ulZmPYlt50VCnWFrDaVGsG8OI7K-7JHXEvDMzWMMPk
+
+{
+  "name" : "Alish",
+  "surname": "Alishxon",
+  "email": "Alish@mail.ru",
+  "password": "Alish",
+  "status" : "ACTIVE",
+  "role": "ADMIN"
+}
+
+###
+DELETE http://localhost:8080/profile/adm/delete/14
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI3IiwiaWF0IjoxNjUzMTE1OTIwLCJleHAiOjE2NTM0NzU5MjAsImlzcyI6Im1hemdpIHByb2R1Y3Rpb24iLCJyb2xlIjoiQURNSU4ifQ.1ulZmPYlt50VCnWFrDaVGsG8OI7K-7JHXEvDMzWMMPk
+
+###
+GET http://localhost:8080/profile/adm/email
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxMSIsImlhdCI6MTY1MzExNjEyMywiZXhwIjoxNjUzNDc2MTIzLCJpc3MiOiJtYXpnaSBwcm9kdWN0aW9uIiwicm9sZSI6IlVTRVIifQ._wHj_7afp6S1yiNntG5eCn4ckg-PnTGeR26TjtBN6II
+
+{
+  "email" : "madmusayevabdulbori1324@gmail.com"
+}
+
+###
+GET http://localhost:8080/profile/adm/password
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxNCIsImlhdCI6MTY1MzExODI4MSwiZXhwIjoxNjUzNDc4MjgxLCJpc3MiOiJtYXpnaSBwcm9kdWN0aW9uIiwicm9sZSI6IlVTRVIifQ.0hW0TTPyVai8GnsEu3EFUNL5BNuAQSzYf6cH8b_lZEw
+
+{
+  "password" : "Aliiiish"
+}
+
+###
+GET http://localhost:8080/profile/adm/ProfileDetail
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI5IiwiaWF0IjoxNjUzMTE4NTQxLCJleHAiOjE2NTM0Nzg1NDEsImlzcyI6Im1hemdpIHByb2R1Y3Rpb24iLCJyb2xlIjoiVVNFUiJ9.U-LoVWSqPGdQnI12tuiBiWeIBN54mLCvowLiLjwNE-Y
+
+{
+  "name" : "Aliiiish",
+  "surname" : "Alishev"
+}
+
+###
+GET http://localhost:8080/profile/adm/ProfileAttach
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI5IiwiaWF0IjoxNjUzMTE4NTQxLCJleHAiOjE2NTM0Nzg1NDEsImlzcyI6Im1hemdpIHByb2R1Y3Rpb24iLCJyb2xlIjoiVVNFUiJ9.U-LoVWSqPGdQnI12tuiBiWeIBN54mLCvowLiLjwNE-Y
+
+{
+  "photoId" :"4c82cba9-50ea-4821-a8eb-e6e5237d6484"
+}

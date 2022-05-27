@@ -1,0 +1,38 @@
+POST http://localhost:8080/subscribe/adm
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI5IiwiaWF0IjoxNjUzMjMzMjYwLCJleHAiOjE2NTM1OTMyNjAsImlzcyI6Im1hemdpIHByb2R1Y3Rpb24iLCJyb2xlIjoiVVNFUiJ9.ByNniSetgJ82CI7wR04mfQQ0e8xtAdtFaZbzT5Xazvk
+Content-Type: application/json
+
+{
+  "status" : "ACTIVE",
+  "notificationType" : "ALL",
+  "chanelId" : 1
+}
+
+###
+PUT http://localhost:8080/subscribe/adm/status/1
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI5IiwiaWF0IjoxNjUzMjMzMjYwLCJleHAiOjE2NTM1OTMyNjAsImlzcyI6Im1hemdpIHByb2R1Y3Rpb24iLCJyb2xlIjoiVVNFUiJ9.ByNniSetgJ82CI7wR04mfQQ0e8xtAdtFaZbzT5Xazvk
+Content-Type: application/json
+
+{
+  "status" : "ACTIVE",
+  "notificationType" : "ALL",
+  "chanelId" : 1
+}
+
+###
+PUT http://localhost:8080/subscribe/adm/notification/1
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI5IiwiaWF0IjoxNjUzMjMzMjYwLCJleHAiOjE2NTM1OTMyNjAsImlzcyI6Im1hemdpIHByb2R1Y3Rpb24iLCJyb2xlIjoiVVNFUiJ9.ByNniSetgJ82CI7wR04mfQQ0e8xtAdtFaZbzT5Xazvk
+Content-Type: application/json
+
+{
+  "notificationType" : "ALL",
+  "chanelId" : 1
+}
+
+###
+GET http://localhost:8080/subscribe/adm
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI5IiwiaWF0IjoxNjUzMjMzMjYwLCJleHAiOjE2NTM1OTMyNjAsImlzcyI6Im1hemdpIHByb2R1Y3Rpb24iLCJyb2xlIjoiVVNFUiJ9.ByNniSetgJ82CI7wR04mfQQ0e8xtAdtFaZbzT5Xazvk
+
+###
+GET http://localhost:8080/subscribe/adm/9
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI3IiwiaWF0IjoxNjUzMjMzMzc5LCJleHAiOjE2NTM1OTMzNzksImlzcyI6Im1hemdpIHByb2R1Y3Rpb24iLCJyb2xlIjoiQURNSU4ifQ.GMeB9ga74X1u8T0rSKUrpK3CE1LmyxUnSrMub2ZUG_E
